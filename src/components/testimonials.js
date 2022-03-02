@@ -192,10 +192,10 @@ class testimonials extends Component {
                             </figure>
                         </section>
                         <div class="cursor-pointer flex justify-center pt-4 pb-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-12">
-                            <button aria-label="Move To previous Testimonials" role="button" onclick="movePrev()" class="focus:outline-none focus:ring-2 focus:ring-gray-400 rounded">
+                            <button aria-label="Move To previous Testimonials"  onclick="movePrev()" class="focus:outline-none focus:ring-2 focus:ring-gray-400 rounded">
                                 <img class="icon icon-tabler icon-tabler-chevron-left"  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/multiple-cards-svg2.svg" alt="previous" />
                             </button>
-                            <button aria-label="Move to Next Testimonials" role="button" onclick="moveForward()" class="focus:outline-none focus:ring-2 focus:ring-gray-400 rounded">
+                            <button aria-label="Move to Next Testimonials"  onclick="moveForward()" class="focus:outline-none focus:ring-2 focus:ring-gray-400 rounded">
                                 <img class="icon icon-tabler icon-tabler-chevron-right" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/multiple-cards-svg3.svg" alt="next" />
                             </button>
                         </div>
