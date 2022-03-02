@@ -25,7 +25,7 @@ function MainHero() {
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                 <div>
-                  <a href="#" className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
+                  <a href="/" className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
                     <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-red-600 rounded-full">Get Sample Report</span>
                     <span className="ml-4 text-sm">Fill the form</span>
                     <svg className="ml-2 w-5 h-5 text-gray-500" x-description="Heroicon name: solid/chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -76,7 +76,7 @@ function MainHero() {
                     </div>
                   </div>
                   <div className="px-4 py-6 bg-gray-50 border-t-2 border-gray-200 sm:px-10">
-                    <p className="text-xs leading-5 text-gray-500">Your information is safe by our <a href="#" className="font-medium text-gray-900 hover:underline">Privacy Policy</a>.</p>
+                    <p className="text-xs leading-5 text-gray-500">Your information is safe by our <a href="/" className="font-medium text-gray-900 hover:underline">Privacy Policy</a>.</p>
                   </div>
                 </div>
               </div>

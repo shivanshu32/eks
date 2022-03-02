@@ -20,16 +20,16 @@ function OurClients(){
           
           <div class="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             <div class="px-10 py-10 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-              <img src="images/clients/adm.png" />
+              <img src="images/clients/adm.png" alt="image" />
             </div>
             <div class="px-10 py-10 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-              <img src="images/clients/kraft.png" />
+              <img src="images/clients/kraft.png" alt="image" />
             </div>
             <div class="px-10 py-10 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-              <img src="images/clients/pepsico.png" />
+              <img src="images/clients/pepsico.png" alt="image" />
             </div>
             <div class="px-10 py-10 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-              <img src="images/clients/total.png" />
+              <img src="images/clients/total.png"  alt="image" />
             </div>            
           </div>
         </div>

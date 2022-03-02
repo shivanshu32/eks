@@ -26,7 +26,7 @@ class testimonials extends Component {
                                             </div>
                                             <div class="pl-6 pr-6 pt-10 relative h-full">
                                                 <div class="h-16 w-16 rounded-full absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask.png" alt="Display Avatar of Alex Parkinson" role="img" class="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask.png" alt="Display Avatar of Alex Parkinson" class="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
     
                                                 <p class="text-base text-gray-600 leading-8">I have worked with Effectual Services on several IP projects. I have been impressed by their quality of work, as well as by their responsiveness. Their client orientation, dedication towards work, subject matter knowledge, and prompt communication is something that keeps me assured that I am working with an A-Team. They have always exceeded my expectations and I highly recommend the firm</p>
@@ -44,7 +44,7 @@ class testimonials extends Component {
                                             </div>
                                             <div class="pl-6 pr-6 pt-10 relative h-full">
                                                 <div class="h-16 w-16 rounded-full absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%205.png" alt="Display Avatar of Ashley Wilson" role="img" class="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%205.png" alt="Display Avatar of Ashley Wilson"  class="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
     
                                                 <p class="text-base text-gray-600 leading-8">I have attended many sales training programs, and I enjoyed this one the most. Both instructors were very knowledgeable and engaging. I found that the models really work and are of value to me. I will be able to use this in the field to increase my ability to engage my customers and grow my business. Overall, I will be a better communicator.</p>
@@ -62,7 +62,7 @@ class testimonials extends Component {
                                             </div>
                                             <div class="pl-6 pr-6 pt-10 relative h-full">
                                                 <div class="h-16 w-16 rounded-full absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask%20%281%29.png" alt="Display Avatar of Richard Clark" role="img" class="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask%20%281%29.png" alt="Display Avatar of Richard Clark"  class="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
     
                                                 <p class="text-base text-gray-600 leading-8">Amit and his firm are the go to global IP firm for a number of services including prosecution, prior art searches, EOU analysis and market research (to name a few). His team is reliable, professional and Amit has proven his credibility time and time again with his work backing our success on the IP front. I would highly recommend Amit to the IAM 300.</p>
@@ -84,7 +84,7 @@ class testimonials extends Component {
                                             </div>
                                             <div class="pl-6 pr-6 pt-10 relative h-64">
                                                 <div class="h-16 w-16 rounded-full absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%205.png" alt="Display Avatar of Ashley Wilson" role="img" class="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%205.png" alt="Display Avatar of Ashley Wilson"  class="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
     
                                                 <p class="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
@@ -102,7 +102,7 @@ class testimonials extends Component {
                                             </div>
                                             <div class="pl-6 pr-6 pt-10 relative h-64">
                                                 <div class="h-16 w-16 rounded-full absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask.png" alt="Display Avatar of Alex Parkinson" role="img" class="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask.png" alt="Display Avatar of Alex Parkinson"  class="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
     
                                                 <p class="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
@@ -120,7 +120,7 @@ class testimonials extends Component {
                                             </div>
                                             <div class="pl-6 pr-6 pt-10 relative h-64">
                                                 <div class="h-16 w-16 rounded-full absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask%20%281%29.png" alt="Display Avatar of Richard Clark" role="img" class="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask%20%281%29.png" alt="Display Avatar of Richard Clark"  class="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
     
                                                 <p class="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
@@ -142,7 +142,7 @@ class testimonials extends Component {
                                             </div>
                                             <div class="pl-6 pr-6 pt-10 relative h-64">
                                                 <div class="h-16 w-16 rounded-full absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask%20%281%29.png" alt="Display Avatar of Richard Clark" role="img" class="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask%20%281%29.png" alt="Display Avatar of Richard Clark"  class="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
     
                                                 <p class="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
@@ -160,7 +160,7 @@ class testimonials extends Component {
                                             </div>
                                             <div class="pl-6 pr-6 pt-10 relative h-64">
                                                 <div class="h-16 w-16 rounded-full absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask.png" alt="Display Avatar of Alex Parkinson" role="img" class="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/profilePicMask.png" alt="Display Avatar of Alex Parkinson"  class="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
     
                                                 <p class="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
@@ -178,7 +178,7 @@ class testimonials extends Component {
                                             </div>
                                             <div class="pl-6 pr-6 pt-10 relative h-64">
                                                 <div class="h-16 w-16 rounded-full absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%205.png" alt="Display Avatar of Ashley Wilson" role="img" class="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%205.png" alt="Display Avatar of Ashley Wilson" class="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
     
                                                 <p class="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
