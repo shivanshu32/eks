@@ -73,7 +73,7 @@ import Infringementsearchpage from './pages/infringementsearchpage';
 import Bucketingandrankingpage from './pages/bucketingandrankingpage'
 import Patentduediligencepage from './pages/patentduediligence'
 
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import {  Routes, Route } from 'react-router-dom';
 
 
 function App() {

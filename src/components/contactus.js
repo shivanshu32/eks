@@ -94,7 +94,7 @@ Singapore: 531A, Upper Cross Street, Singapore- 051531
                 <span class="ml-3">info@effectualservices.com</span>
               </dd>
             </dl>
-            <ul class="mt-8 flex space-x-12" role="list">
+            <ul class="mt-8 flex space-x-12">
               <li>
                 <a class="text-red-200 hover:text-red-100" href="#">
                   <span class="sr-only">Facebook</span>
