@@ -109,7 +109,8 @@ function Navigation() {
                   <li><a href="opportunity-assessment">Opportunity Assessment</a></li> 
                   <li><a href="portfolio-whitespace-analysis">Portfolio & Whitespace Analysis</a></li> 
                   </ul>
-                </li>                
+                </li> 
+                <li><a href="market-research-capabilities">Market Research Capabilities</a></li>                 
               </ul>
             </li>
             <li className="parent"><a href="/" aria-label="Product pricing" title="Product pricing" className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Expertise Domains</a>

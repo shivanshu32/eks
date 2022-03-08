@@ -72,6 +72,7 @@ import Marketresearchpage from './pages/marketresearchpage'
 import Infringementsearchpage from './pages/infringementsearchpage';
 import Bucketingandrankingpage from './pages/bucketingandrankingpage'
 import Patentduediligencepage from './pages/patentduediligence'
+import Marketresearchcapabilitiespage from './pages/marketresearchcapabilitiespage';
 
 import {  Routes, Route } from 'react-router-dom';
 
@@ -153,9 +154,16 @@ function App() {
     <Route path="/infringement-search" element={<Infringementsearch />} />
     <Route path="/bucketing-and-ranking" element={<Bucketingandranking />} />
     <Route path="/patent-due-diligence" element={<Patentduediligence />} />
+    <Route path="/market-research-capabilities" element={<Marketresearchcapabilities />} />
    
    
    </Routes>
+  );
+}
+
+function Marketresearchcapabilities(){
+  return(
+    <Marketresearchcapabilitiespage />
   );
 }
 
