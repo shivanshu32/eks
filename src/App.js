@@ -19,7 +19,7 @@ import Foundersleadershippage from './pages/foundersleadershippage';
 import Aboutcsrpage from './pages/aboutcsrpage'
 import Patentcreationpage from './pages/patentcreationpage'
 import Indianpatentservicespage from './pages/indianpatentservicespage'
-import Patentmanagementpage from './pages/indianpatentservicespage'
+import Patentmanagementpage from './pages/patentmanagementpage'
 import Patentsearchespage from './pages/patentsearchespage'
 import Patentlitigationpage from './pages/patentlitigationpage'
 import Patentlicensingpage from './pages/patentlicensingpage'

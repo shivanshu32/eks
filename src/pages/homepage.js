@@ -13,6 +13,7 @@ function HomePage() {
   return (
     <div className="App">   
      <Navigation />
+     /*
      <MainHero />
      <AboutEffectual />
      <OurClients />
@@ -20,6 +21,7 @@ function HomePage() {
      <Whychooseus />
      <Testimonials />
      <Contactus />
+     */
      <Footer />
      
     </div>
