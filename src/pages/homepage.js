@@ -1,4 +1,3 @@
-import MainHero from '../components/mainhero.js'
 import AboutEffectual from '../components/abouteffectual.js'
 import OurClients from '../components/ourclients.js'
 import Servicessection from '../components/servicessection.js'
