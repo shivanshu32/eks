@@ -4,19 +4,22 @@ class whychooseus extends Component {
     render() {
         return (
             <div>
+              <div class="container flex justify-center mx-auto pt-16"><div><p class="text-gray-500 text-lg text-center font-normal pb-3">OUR SERVICES</p><h1 class="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">Why Choose us for your Next Project</h1></div></div>
                      <div class="px-4">
         <div class="p-8 rounded shadow-xl sm:p-16">
           <div class="flex flex-col lg:flex-row">
             <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-              <h2 class="font-sans py-10  text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              {/* <h2 class="font-sans py-10  text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                 Why Choose Us?
                 
-              </h2>
-
-              <span class="relative inline-block">
+              </h2> */}
 
               
-            </span>
+              <div class="aspect-w-16 aspect-h-9">
+  <iframe src="https://www.youtube.com/embed/r9jwGansp1E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+              
+           
             </div>
             <div class="lg:w-1/2">
               <ul class="list-disc">
