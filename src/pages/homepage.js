@@ -1,14 +1,12 @@
-import AboutEffectual from '../components/abouteffectual.js'
-import OurClients from '../components/ourclients.js'
-import Servicessection from '../components/servicessection.js'
+
 import Whychooseus from '../components/whychooseus.js'
-import Testimonials from '../components/testimonials.js'
+
 import Contactus from '../components/contactus.js'
 import Navigation from '../components/navigation.js'
 import Footer from '../components/footer.js'
 import Testimonailsnew from '../components/testimonialsnew.js'
 import Clientscroll from '../components/clientscroll.js'
-import MyDropdown from '../components/dropdown.js'
+
 import Carouselslider from '../components/carouselslider.js'
 import Oursolutions from '../components/oursolutions'
 

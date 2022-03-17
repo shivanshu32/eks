@@ -1,4 +1,4 @@
-import React, { Component, useRef } from 'react';
+import React, { useRef } from 'react';
 import { Rerousel } from 'rerousel';
 import styled from "styled-components";
 
