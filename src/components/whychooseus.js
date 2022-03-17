@@ -15,14 +15,7 @@ class whychooseus extends Component {
 
               <span class="relative inline-block">
 
-              <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 left-20 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
-                <defs>
-                  <pattern id="679d5905-e08c-4b91-a66c-84aefbb9d2f5" x="0" y="0" width=".135" height=".30">
-                    <circle cx="1" cy="1" r=".7"></circle>
-                  </pattern>
-                </defs>
-                <rect fill="url(#679d5905-e08c-4b91-a66c-84aefbb9d2f5)" width="52" height="24"></rect>
-              </svg>
+              
             </span>
             </div>
             <div class="lg:w-1/2">

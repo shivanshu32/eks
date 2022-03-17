@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 const Index = () => {
-    const [isList, setIsList] = useState(false);
+    const [isList, setIsList] = useState(true);
     const [isSubList, setIsSubList] = useState(3);
     return (
         <div>
             <div onClick={() => setIsList(!isList)} className="w-64 p-4 shadow rounded bg-white text-sm font-medium leading-none text-gray-800 flex items-center justify-between cursor-pointer">
-                Channels
+                Patent Creation
                 <div>
                     {isList ? (
                         <div>
@@ -32,7 +32,7 @@ const Index = () => {
                             </svg>
                             <div className="pl-4 flex items-center">
                                 <div className="bg-gray-100 dark:bg-gray-800 border rounded-sm border-gray-200 dark:border-gray-700 w-3 h-3 flex flex-shrink-0 justify-center items-center relative">
-                                    <input type="checkbox" className="checkbox opacity-0 absolute cursor-pointer w-full h-full" />
+                                   
                                     <div className="check-icon hidden bg-indigo-700 text-white rounded-sm">
                                         <svg className="icon icon-tabler icon-tabler-check" xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                             <path stroke="none" d="M0 0h24v24H0z" />
@@ -40,10 +40,10 @@ const Index = () => {
                                         </svg>
                                     </div>
                                 </div>
-                                <p className="text-sm leading-normal ml-2 text-gray-800">Facebook</p>
+                                <p className="text-sm leading-normal ml-2 text-gray-800">Indian Patent Services</p>
                             </div>
                         </div>
-                        <p className="w-8 text-xs leading-3 text-right text-indigo-700">2,381</p>
+                       
                     </div>
                     {isSubList === 1 && (
                         <div className="pl-8 pt-5">

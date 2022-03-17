@@ -3,7 +3,7 @@ import './navigation.css'
 function Navigation() {
     return (  
            
-        <div className="px-4 py-1 mx-auto  md:px-24 lg:px-8 z-10">
+        <div className="px-4 py-1 mx-auto sticky top-0 z-50 bg-white  md:px-24 lg:px-8 z-10">
         <div className="relative flex items-center justify-between">
           <a href="/" aria-label="Company" title="Company" className="inline-flex items-center">
             <img className="w-1/2 h-1/2" src="images/Effectual-Logo-1.png" alt="logo" />

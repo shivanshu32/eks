@@ -5,6 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
+window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+});
+
 ReactDOM.render(
   <BrowserRouter>
     <App />
