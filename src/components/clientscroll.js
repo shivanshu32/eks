@@ -28,12 +28,12 @@ export default function index() {
  
 
   return (
-    <div className="bg-gray-900 overflow-hidden">
-      <div className="flex justify-center items-center flex-col pt-10 py-4">
+    <div className="bg-gray-900  py-4 overflow-hidden">
+      <div className="flex justify-center items-center flex-col py-6">
         <h1 className="text-2xl md:text-4xl 2xl:text-5xl leading-10 text-gray-200"><span className="font-bold">Our</span> <span className="italic">Clients</span></h1>
         
         
-                    <div class="justify-between py-8 w-3/4 flex-wrap hidden sm:block">
+                    <div class="justify-between py-12 w-3/4 flex-wrap hidden sm:block">
                         <div class="xl:w-full xl:mx-0 rounded bg-gray-200 dark:bg-gray-800 h-12 shadow">
                             <ul class="flex items-center h-full">
                                 <li onclick={() => {activeTab(this)}} onkeypress="activeTab(this)" tabindex="0" class="focus:outline-none w-1/3 dark:text-white dark:hover:text-white focus:text-white text-sm text-white flex items-center h-full px-5 bg-indigo-700 py-4   font-normal cursor-pointer">Law Firms</li>
@@ -81,21 +81,21 @@ export default function index() {
             }
   }}
         
-        className="mt-12 md:mt-10 2xl:mt-20 swiper mySwiper">
+        className="swiper mySwiper">
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-10 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/adm.png" alt="client1" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/adm.png" alt="client1" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-10 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/kraft.png" alt="client2" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/kraft.png" alt="client2" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-10 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/pepsico.png" alt="client3" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/pepsico.png" alt="client3" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-10 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/total.png" alt="client4" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/total.png" alt="client4" /></div>
             </SwiperSlide>
         </Swiper>
-        <div className="flex justify-center mt-20  items-center space-x-6 w-full">
+        <div className="flex justify-center mt-10  items-center space-x-6 w-full">
           <button aria-label="back" className="rounded-full p-1.5 flex justify-center items-center bg-gray-600  swiper-button-prev w-1.5 h-2.5">
             <img className=" w-6 h-6" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_svg-6_prev.svg" alt="back" />
           </button>

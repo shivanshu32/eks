@@ -37,8 +37,8 @@ function HomePage() {
     {/* <MainHero /> */}
      {/* <AboutEffectual /> */}
      
-     <h2 class="mb-6 pt-12 font-sans text-3xl font-bold tracking-tight text-center text-black sm:text-4xl sm:leading-none">Who we are</h2>
-     <div class="xl:mx-auto xl:container  xl:px-20 md:px-6 px-4 py-12">
+     <h2 class="pt-6 font-sans text-3xl font-bold tracking-tight text-center text-black sm:text-4xl sm:leading-none">Who we are</h2>
+     <div class="xl:mx-auto xl:container  xl:px-20 md:px-6 px-4 pb-8 py-4">
             <div class="lg:flex items-center justify-center lg:space-x-12 2xl:space-x-6">
                 <div class="w-2/3 px-12">
    
