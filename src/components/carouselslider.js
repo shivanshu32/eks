@@ -27,7 +27,7 @@ export default function Carouselslider() {
             
            <div>
                 <Rerousel itemRef={ref} data-pause="hover" interval={5000} stop={false}>
-      <Item ref={ref} data-pause="hover" >
+      {/* <Item ref={ref} data-pause="hover" >
       <div className="relative overflow-hidden" style={{backgroundColor:"#0056A1"}}>
     <div className="relative" data-todo-x-data="Components.popover({ open: false, focus: true })" data-todo-x-init="init()" data-todo-at-keydown-escape="onEscape" data-todo-at-close-popover-group-window="onClosePopoverGroup">
      <main className="mx-auto ml-8 max-w-7xl mt-12 mb-12 px-12 sm:px-6">
@@ -98,7 +98,7 @@ export default function Carouselslider() {
       </main>
     </div>
   </div>
-      </Item>
+      </Item> */}
       
       <Item>
       <div class="w-full bg-center bg-cover h-96" style={{backgroundImage: "url(images/banner.jpg)"}}>
