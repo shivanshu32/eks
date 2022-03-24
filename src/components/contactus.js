@@ -6,20 +6,13 @@ class contactus extends Component {
            
         <section class="text-gray-600 body-font relative">
         <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col text-center w-full mb-12">
-            
-			 <h2 class="text-center py-5 max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-black sm:text-4xl md:mx-auto">
-            
-            Contact Us
-          </h2>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Please send your message. We will get back to you.</p>
-          </div>
+          
 		  
 		  
 	   <div class="bg-gray-100">
     <div class="max-w-7xl mx-auto ">
       <div class="relative bg-white shadow-xl">
-        <h2 class="sr-only">Contact us</h2>
+      
 
         <div class="grid grid-cols-1 lg:grid-cols-3">
           
@@ -57,7 +50,8 @@ class contactus extends Component {
                 </defs>
               </svg>
             </div>
-            <h3 class="text-lg font-medium text-white">Contact information</h3>
+            <h1 class="text-2xl md:text-4xl 2xl:text-5xl leading-10 text-gray-200"><span class="font-bold">Contact</span> <span class="italic">Us</span></h1>
+            {/* <h3 class="text-lg font-medium text-white">Contact information</h3> */}
             <p class="mt-6 text-base text-red-50 max-w-3xl">USA: Suite-427,425 Broadhollow Road
 Melville | NY-11747</p>
  <p class="mt-6 text-base text-red-50 max-w-3xl">
@@ -123,30 +117,30 @@ Singapore: 531A, Upper Cross Street, Singapore- 051531
           </div>
 
           
-          <div class=" px-6 py-6 sm:px-10 lg:col-span-2">
+          <div class=" px-6 py-6 sm:px-10 lg:col-span-2" style={{backgroundColor:"#0056A1"}}>
            
             <form action="#" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
               <div>
-                <label for="first_name" class="block text-sm font-medium text-gray-900">First name</label>
+                <label for="first_name" class="block text-sm font-medium text-white">First name</label>
                 <div class="mt-1">
                   <input type="text" name="first_name" id="first_name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" />
                 </div>
               </div>
               <div>
-                <label for="last_name" class="block text-sm font-medium text-gray-900">Last name</label>
+                <label for="last_name" class="block text-sm font-medium text-white">Last name</label>
                 <div class="mt-1">
                   <input type="text" name="last_name" id="last_name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" />
                 </div>
               </div>
               <div>
-                <label for="email" class="block text-sm font-medium text-gray-900">Email</label>
+                <label for="email" class="block text-sm font-medium text-white">Email</label>
                 <div class="mt-1">
                   <input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" />
                 </div>
               </div>
               <div>
                 <div class="flex justify-between">
-                  <label for="phone" class="block text-sm font-medium text-gray-900">Phone</label>
+                  <label for="phone" class="block text-sm font-medium text-white">Phone</label>
                   <span id="phone-optional" class="text-sm text-gray-500">Optional</span>
                 </div>
                 <div class="mt-1">
@@ -154,14 +148,14 @@ Singapore: 531A, Upper Cross Street, Singapore- 051531
                 </div>
               </div>
               <div class="sm:col-span-2">
-                <label for="subject" class="block text-sm font-medium text-gray-900">Subject</label>
+                <label for="subject" class="block text-sm font-medium text-white">Subject</label>
                 <div class="mt-1">
                   <input type="text" name="subject" id="subject" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" />
                 </div>
               </div>
               <div class="sm:col-span-2">
                 <div class="flex justify-between">
-                  <label for="message" class="block text-sm font-medium text-gray-900">Message</label>
+                  <label for="message" class="block text-sm font-medium text-white">Message</label>
                   <span id="message-max" class="text-sm text-gray-500">Max. 500 characters</span>
                 </div>
                 <div class="mt-1">

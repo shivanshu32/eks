@@ -11,7 +11,7 @@ export default function index() {
   return (
     <div className="bg-gray-900 overflow-hidden">
       <div className="flex justify-center items-center flex-col py-12">
-        <h1 className="text-2xl md:text-4xl 2xl:text-5xl leading-10 text-gray-200"><span className="font-bold">Loved By Industy</span> <span className="italic">Leaders</span></h1>
+        <h1 className="text-2xl md:text-4xl 2xl:text-5xl leading-10 text-gray-200"><span className="font-bold" style={{color:"#0056A1"}}>Loved By Industy</span> <span className="italic" style={{color:"#c4171b"}}>Leaders</span></h1>
         <Swiper 
         centeredSlides={true} loop={true} loopFillGroupWithBlank={true} grabCursor={true}
         navigation ={{

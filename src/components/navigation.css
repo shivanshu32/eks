@@ -1,5 +1,5 @@
 .parent {display: block;position: relative;float: left;line-height: 30px}
-.parent a{text-decoration: none; padding: 5px;}
+.parent a{text-decoration: none; padding: 3px;}
 
 .parent:hover > ul {display:block;position:absolute; color:#FFFFFF}
 .child {display: none;}

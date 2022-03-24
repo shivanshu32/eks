@@ -6,14 +6,14 @@ function Navigation() {
         <div className="px-4 py-1 mx-auto sticky top-0 z-50 bg-white  md:px-24 lg:px-8 z-10">
         <div className="relative flex items-center justify-between">
           <a href="/" aria-label="Company" title="Company" className="inline-flex items-center">
-            <img className="w-1/3 h-1/3" src="images/Effectual-Logo-1.png" alt="logo" />
+            <img className="w-1/2 h-1/2" src="images/Effectual-Logo-1.png" alt="logo" />
             
           </a>
           <ul className="flex items-center hidden space-x-8 lg:flex" id="menu">
-            <li className="parent"><a href="/" aria-label="Our product" title="Our product" className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Home</a>
+            <li className="parent"><a href="/" aria-label="Our product" title="Our product" className="font-bold tracking-wide text-blue-700 transition-colors duration-200 text-lg hover:text-deep-purple-accent-400">Home</a>
             
             </li>
-            <li className="parent"><a href="/" aria-label="Our product" title="Our product" className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">About</a>
+            <li className="parent"><a href="/" aria-label="Our product" title="Our product" className="font-bold tracking-wide text-red-700 transition-colors duration-200 text-lg hover:text-deep-purple-accent-400">About</a>
               <ul className="child z-10">
                 <li><a href="who-we-are">Who We Are</a></li>
                 <li><a href="founders-leadership">Founders & Leadership</a></li>
@@ -21,7 +21,7 @@ function Navigation() {
               </ul>
             </li>           
             
-            <li className="parent"><a href="/" aria-label="About us" title="About us" className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Solutions</a>
+            <li className="parent"><a href="/" aria-label="About us" title="About us" className="font-bold tracking-wide text-blue-700 transition-colors duration-200 text-lg hover:text-deep-purple-accent-400 underline-offset-auto">Solutions</a>
               <ul className="child z-10">
                 <li className="parent"><a href="/patents">Patents</a>
                   <ul className="child">
@@ -113,7 +113,7 @@ function Navigation() {
                 <li><a href="market-research-capabilities">Market Research Capabilities</a></li>                 
               </ul>
             </li>
-            <li className="parent"><a href="/" aria-label="Product pricing" title="Product pricing" className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Expertise Domains</a>
+            <li className="parent"><a href="/" aria-label="Product pricing" title="Product pricing" className="font-bold text-lg tracking-wide text-red-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Expertise Domains</a>
               <ul className="child z-10">
               <li><a href="information-communication-technology">Information Communication &nbsp;&nbsp;Technology</a></li>
                 <li><a href="lifesciences-and-chemistry">Life Sciences & Chemistry</a></li>
@@ -121,7 +121,7 @@ function Navigation() {
                             
               </ul>
             </li>
-            <li className="parent"><a href="/" aria-label="About us" title="About us" className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Effectual Innovation Center</a>
+            <li className="parent"><a href="/" aria-label="About us" title="About us" className="font-bold text-lg tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Effectual Innovation Center</a>
               <ul className="child z-10">
                 <li><a href="ip-minute-to-go">IP Minute To Go</a></li>
                 <li><a href="articles">Articles</a></li>
@@ -130,14 +130,14 @@ function Navigation() {
                 <li><a href="press-releases">Press Releases</a></li>                
               </ul>
             </li>
-            <li className="parent"><a href="/" aria-label="About us" title="About us" className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Why Us</a>
+            <li className="parent"><a href="/" aria-label="About us" title="About us" className="font-bold text-lg tracking-wide text-red-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Why Us</a>
               <ul className="child z-10">
                 <li><a href="life-at-effectual">Life at Effectual</a></li>
                 <li><a href="career">Careers</a></li>
                              
               </ul>
             </li>
-            <li className="parent"><a href="/contact-us" aria-label="About us" title="About us" className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Contact Us</a></li>
+            <li className="parent"><a href="/contact-us" aria-label="About us" title="About us" className="font-bold text-lg tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Contact Us</a></li>
           </ul>
           
          

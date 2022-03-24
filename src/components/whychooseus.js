@@ -4,7 +4,7 @@ class whychooseus extends Component {
     render() {
         return (
             <div>
-              <div class="container flex justify-center mx-auto pt-16"><div><p class="text-gray-500 text-lg text-center font-normal pb-3">OUR SERVICES</p><h1 class="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">Why Choose us for your Next Project</h1></div></div>
+              <div class="container flex justify-center mx-auto pt-16"><div><h1 class="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto"><span style={{color:"#0056A1"}}>Why Choose us </span> <span style={{color:"#c4171b"}}> for your Next Project</span></h1></div></div>
                      <div class="px-4">
         <div class="p-8 rounded shadow-xl sm:p-16">
           <div class="flex flex-col lg:flex-row">
@@ -61,7 +61,7 @@ class whychooseus extends Component {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span class="title-font font-medium">With a clientele spread across 22 countries, we guide corporations and universities on how to manage and monetize their patent portfolios</span>
+                  <span class="title-font font-medium">With a clientele spread across 50+ countries, we guide corporations and universities on how to manage and monetize their patent portfolios</span>
                 </div>
                </ul>
             </div>

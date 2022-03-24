@@ -37,7 +37,10 @@ function HomePage() {
     {/* <MainHero /> */}
      {/* <AboutEffectual /> */}
      
-     <h2 class="pt-6 font-sans text-3xl font-bold tracking-tight text-center text-black sm:text-4xl sm:leading-none">Who we are</h2>
+     <div className="pt-8">
+                    
+                    <h1 className="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold  sm:w-4/6 w-5/6 mx-auto"><span style={{color:"#0056A1"}}>Who </span> <span className="italic" style={{color:"#c4171b"}}>We Are</span></h1>
+                </div>
      <div class="xl:mx-auto xl:container  xl:px-20 md:px-6 px-4 pb-8 py-4">
             <div class="lg:flex items-center justify-center lg:space-x-12 2xl:space-x-6">
                 <div class="w-2/3 px-12">
@@ -55,7 +58,7 @@ function HomePage() {
                                 </div>
                             </div>
                             <div class="flex items-start flex-col ml-6 pt-8">
-                                <h2 class="text-lg font-semibold leading-4 text-gray-800">190+</h2>
+                                <h2 class="text-lg font-semibold leading-4 text-gray-800">200+</h2>
                                 <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600">Techno-Legal Professionals</p>
                             </div>
                         </div>
@@ -77,7 +80,7 @@ function HomePage() {
                                 </div>
                             </div>
                             <div class="flex items-start flex-col ml-6 pt-8">
-                                <h2 class="text-lg font-semibold leading-4 text-gray-800">15000+</h2>
+                                <h2 class="text-lg font-semibold leading-4 text-gray-800">25000+</h2>
                                 <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600">Projects Completed</p>
                             </div>
                         </div>
