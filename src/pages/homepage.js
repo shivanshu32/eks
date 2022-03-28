@@ -10,6 +10,7 @@ import Awardscroll from '../components/awardscroll';
 import Videoslides from '../components/videoslides.js'
 import Carouselslider from '../components/carouselslider.js'
 import Oursolutions from '../components/oursolutions'
+import Globalfootprints from '../components/globalfootprints.js'
 
 
 function HomePage() {
@@ -46,7 +47,7 @@ function HomePage() {
             <div class="items-center justify-center lg:space-x-12 2xl:space-x-6">
                 <div class="w-full px-12">
    
-                    <p class=" leading-7 text-justify text-gray-600 mt-4  w-full">Effectual Services is an award-winning Intellectual Property (IP) management advisory & consulting firm offering IP intelligence to Fortune 500 companies, law firms, research institutes and universities, and venture capital firms/PE firms, globally. Through research & intelligence we help our clients in taking critical business decisions backed with credible data sources, which in turn helps them achieve their organisational goals, foster innovation and achieve milestones within timelines while optimising costs. We are one of the largest IP & business intelligence providers, globally serving clients for over a decade now. Our multidisciplinary teams of subject matter experts have deep knowledge of best practices across industries, are adept with benchmarking quality standards and use a combination of human and machine intellect to deliver quality projects. Having a global footprint in over 5 countries helps us to bridge boundaries and work seamlessly across multiple time zones, thus living to the core of our philosophy - Innovation is global, so are we !!!</p>
+                    <p class=" leading-7 text-center text-gray-600 mt-4  w-full">Effectual Services is an <b>award-winning</b> Intellectual Property (IP) management advisory & <b>consulting firm</b> offering IP intelligence to <b>Fortune 500 companies, law firms, research institutes and universities, and venture capital firms/PE firms</b>, globally. Through research & <br />intelligence we help our clients in taking <b>critical business decisions</b> backed with credible data sources, which in turn helps  them<br /> achieve  their organisational goals, <b>foster innovation</b> and achieve milestones within timelines while <b>optimising costs.</b> We are<br /> one of the <b>largest IP & business intelligence providers</b>, globally serving clients for over a decade now. Our multidisciplinary<br /> teams of <b>subject matter experts</b> have deep knowledge of <b>best practices across industries</b>, are adept with benchmarking<br /> <b>quality standards</b> and use a combination of human and machine intellect to deliver <b>quality projects.</b> Having a global <br />footprint in over <b>5 countries</b> helps us to bridge boundaries and <b>work seamlessly</b> across multiple time zones,<br /> thus living to the core of our philosophy - <b>Innovation is global</b>, so are we !!!</p>
                     
                     
                 </div>
@@ -156,7 +157,7 @@ function HomePage() {
      {/* <Testimonials /> */}
      {/* <Contactus /> */}
 
-    
+     <Globalfootprints />
      
     
 
