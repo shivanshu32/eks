@@ -1,19 +1,42 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation} from 'swiper'
+import React from "react";
+import { Swiper, SwiperSlide, useSwiper  } from 'swiper/react';
+import SwiperCore, {Autoplay, Navigation} from 'swiper'
 
 // Import Swiper styles
 import 'swiper/css';
 
 import 'swiper/css/navigation';
-SwiperCore.use([Navigation])
+SwiperCore.use([Navigation, Autoplay])
+
+
+
 
 export default function index() {
+  
+  
+ 
+  
+  const handleMouseEnter = () => {
+    // const swiper = useSwiper();
+    // swiper.autoplay.start();
+  };
+  const handleMouseLeave = () => {
+    // const swiper = useSwiper();
+    // swiper.autoplay.stop();
+  };
+ 
+  
+  
   return (
     <div className="bg-gray-900 overflow-hidden">
       <div className="flex justify-center items-center flex-col py-12">
         <h1 className="text-2xl md:text-4xl 2xl:text-5xl leading-10 text-gray-200"><span className="font-bold" style={{color:"#0056A1"}}>Loved By Industy</span> <span className="italic" style={{color:"#c4171b"}}>Leaders</span></h1>
-        <Swiper 
-        centeredSlides={true} loop={true} loopFillGroupWithBlank={true} grabCursor={true}
+        <Swiper
+        centeredSlides={true} loop={true} autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+      }} loopFillGroupWithBlank={true} grabCursor={true}
         navigation ={{
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -48,8 +71,8 @@ export default function index() {
             }
   }}
         
-        className="mt-12 md:mt-10 2xl:mt-20 swiper mySwiper">
-            <SwiperSlide className="swiper-slide">
+        className="mt-12 md:mt-10 2xl:mt-20 swiper mySwiper" >
+            <SwiperSlide className="swiper-slide" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
               <div className="flex jusitfy-center items-center flex-col">
                 <div className="w-12 relative z-20">
                     <img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_svg-1.svg" alt="apple" />
@@ -73,7 +96,7 @@ export default function index() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
+            <SwiperSlide className="swiper-slide" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
               <div className="flex jusitfy-center items-center flex-col">
                 <div className="w-12 relative z-20"><img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_svg-2.svg" alt="hand" />
                 </div>
@@ -96,7 +119,7 @@ export default function index() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
+            <SwiperSlide className="swiper-slide" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
               <div className="flex jusitfy-center items-center flex-col">
                 <div className="w-12 relative z-20"><img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_svg-3.svg" alt="be" />
                 </div>
@@ -119,7 +142,7 @@ export default function index() {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
+            <SwiperSlide className="swiper-slide" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
               <div className="flex jusitfy-center items-center flex-col">
                 <div className="w-12 relative z-20"><img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_svg-4.svg" alt="gear" />
                 </div>

@@ -6,7 +6,8 @@ import Navigation from '../components/navigation.js'
 import Footer from '../components/footer.js'
 import Testimonailsnew from '../components/testimonialsnew.js'
 import Clientscroll from '../components/clientscroll.js'
-
+import Awardscroll from '../components/awardscroll';
+import Videoslides from '../components/videoslides.js'
 import Carouselslider from '../components/carouselslider.js'
 import Oursolutions from '../components/oursolutions'
 
@@ -39,19 +40,19 @@ function HomePage() {
      
      <div className="pt-8">
                     
-                    <h1 className="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold  sm:w-4/6 w-5/6 mx-auto"><span style={{color:"#0056A1"}}>Who </span> <span className="italic" style={{color:"#c4171b"}}>We Are</span></h1>
+                    <h1 className="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold  mx-auto"><span style={{color:"#0056A1"}}>Who </span> <span className="italic" style={{color:"#c4171b"}}>We Are</span></h1>
                 </div>
      <div class="xl:mx-auto xl:container  xl:px-20 md:px-6 px-4 pb-8 py-4">
-            <div class="lg:flex items-center justify-center lg:space-x-12 2xl:space-x-6">
-                <div class="w-2/3 px-12">
+            <div class="items-center justify-center lg:space-x-12 2xl:space-x-6">
+                <div class="w-full px-12">
    
-                    <p class="text-lg leading-7 text-justify text-gray-600 mt-4  w-full">Effectual Services is an award-winning Intellectual Property (IP) management advisory firm offering IP intelligence to Fortune 500 companies, law firms, research institutes and universities, and venture capital firms/PE firms, across the globe.</p>
+                    <p class=" leading-7 text-justify text-gray-600 mt-4  w-full">Effectual Services is an award-winning Intellectual Property (IP) management advisory & consulting firm offering IP intelligence to Fortune 500 companies, law firms, research institutes and universities, and venture capital firms/PE firms, globally. Through research & intelligence we help our clients in taking critical business decisions backed with credible data sources, which in turn helps them achieve their organisational goals, foster innovation and achieve milestones within timelines while optimising costs. We are one of the largest IP & business intelligence providers, globally serving clients for over a decade now. Our multidisciplinary teams of subject matter experts have deep knowledge of best practices across industries, are adept with benchmarking quality standards and use a combination of human and machine intellect to deliver quality projects. Having a global footprint in over 5 countries helps us to bridge boundaries and work seamlessly across multiple time zones, thus living to the core of our philosophy - Innovation is global, so are we !!!</p>
                     
                     
                 </div>
                 <div class="hidden lg:block w-full lg:mt-0 mt-6">
-                <div class="mt-6 md:mt-10 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:mt-6 2xl:mt-12">
-                        <div class="flex items-center">
+                <div class="mt-6 md:mt-10 grid sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-6 lg:mt-6 2xl:mt-12">
+                <div class="flex items-center">
                             <div class="w-16 h-16 relative">
                                 <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
                                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg1.svg" alt="clock" />
@@ -95,6 +96,50 @@ function HomePage() {
                                 <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600">Clients</p>
                             </div>
                         </div> 
+                        <div class="flex items-center">
+                            <div class="w-16 h-16 relative">
+                                <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg1.svg" alt="clock" />
+                                </div>
+                            </div>
+                            <div class="flex items-start flex-col ml-6 pt-8">
+                                <h2 class="text-lg font-semibold leading-4 text-gray-800">6</h2>
+                                <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600">Offices in 5 Countries</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-16 h-16 relative">
+                                <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg2.svg" alt="Friendly" />
+                                </div>
+                            </div>
+                            <div class="flex items-start flex-col ml-6 pt-8">
+                                <h2 class="text-lg font-semibold leading-4 text-gray-800">115+</h2>
+                                <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600">Countries Covered in Research</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-16 h-16 relative">
+                                <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg3.svg" alt="Creative" />
+                                </div>
+                            </div>
+                            <div class="flex items-start flex-col ml-6 pt-8">
+                                <h2 class="text-lg font-semibold leading-4 text-gray-800">15+</h2>
+                                <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600">Language Capabilities in House</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-16 h-16 relative">
+                                <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg4.svg" alt="Achievments" />
+                                </div>
+                            </div>
+                            <div class="flex items-start flex-col ml-6 pt-8">
+                                <h2 class="text-lg font-semibold leading-4 text-gray-800">10+ </h2>
+                                <p class="lg:w-40 2xl:w-52 text-base leading-6 mt-2 text-gray-600">Departments covering 55 Industry domains</p>
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -103,11 +148,13 @@ function HomePage() {
      {/* <OurClients /> */}
      <Clientscroll />
      <Oursolutions />
+     <Awardscroll />
      {/* <Servicessection /> */}
      <Whychooseus />
+     <Videoslides />
      <Testimonailsnew />
      {/* <Testimonials /> */}
-     <Contactus />
+     {/* <Contactus /> */}
 
     
      

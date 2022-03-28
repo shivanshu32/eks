@@ -30,19 +30,10 @@ export default function index() {
   return (
     <div className="bg-gray-900  py-4 overflow-hidden">
       <div className="flex justify-center items-center flex-col py-6">
-        <h1 className="text-2xl md:text-4xl 2xl:text-5xl leading-10 text-gray-200"><span className="font-bold" style={{color:"#0056A1"}}>Our</span> <span style={{color:"#c4171b"}} className="italic">Clients</span></h1>
+        <h1 className="text-2xl py-4 md:text-4xl 2xl:text-5xl leading-10 text-gray-200"><span className="font-bold" style={{color:"#0056A1"}}>Awards &</span> <span style={{color:"#c4171b"}} className="italic">Recognition</span></h1>
         
         
-                    <div class="justify-between py-12 w-3/4 flex-wrap hidden sm:block">
-                        <div class="xl:w-full xl:mx-0 rounded bg-gray-200 dark:bg-gray-800 h-12 shadow">
-                            <ul class="flex  h-full">
-                                <li onclick={() => {activeTab(this)}} onkeypress="activeTab(this)" tabindex="0" class="focus:outline-none w-1/3 dark:text-white dark:hover:text-white focus:text-white text-sm text-white flex justify-center h-full px-5 bg-indigo-700 py-4   font-normal cursor-pointer">Law Firms</li>
-                                <li onclick={() => {activeTab(this)}} onkeypress="activeTab(this)" tabindex="0" class="focus:outline-none w-1/3 dark:text-white dark:hover:text-white focus:text-white text-sm text-white h-full flex justify-center py-4 px-5 bg-red-700   font-normal hover:text-white cursor-pointer">Start-up's, SME's & Fortune 1000's</li>
-                                <li onclick={() => {activeTab(this)}} onkeypress="activeTab(this)" tabindex="0" class="focus:outline-none w-1/3 dark:text-white dark:hover:text-white focus:text-white text-sm text-white h-full flex justify-center py-4 px-5 bg-indigo-700   font-normal hover:text-white cursor-pointer">Universities & Research Institutes</li>
-                                
-                        </ul>
-                        </div>
-                    </div>
+                    
                 
         
         <Swiper 
@@ -87,16 +78,37 @@ export default function index() {
         
         className="swiper mySwiper">
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/adm.png" alt="client1" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a2-1.jpg" alt="client1" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/kraft.png" alt="client2" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a3-1.jpg" alt="client2" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/pepsico.png" alt="client3" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/08/award1.jpg" alt="client3" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="images/clients/total.png" alt="client4" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a6.png" alt="client4" /></div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a7.jpg" alt="client4" /></div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a8-1.png" alt="client4" /></div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/08/Indo-German-Chember-Of-Commerce.jpg" alt="client4" /></div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/08/eu-india-1.png" alt="client4" /></div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/08/sign-00000002.jpg" alt="client4" /></div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/08/089909-573x553.jpg" alt="client4" /></div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a4-1.jpg" alt="client4" /></div>
             </SwiperSlide>
         </Swiper>
         <div className="flex justify-center mt-10  items-center space-x-6 w-full">
