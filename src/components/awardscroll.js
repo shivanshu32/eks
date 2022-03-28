@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Autoplay} from 'swiper'
+import SwiperCore, { Navigation} from 'swiper'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -8,20 +8,7 @@ import 'swiper/css/navigation';
 SwiperCore.use([Navigation])
 
 
-function activeTab(element) {
-  alert("active tab called");
-   let siblings = element.parentNode.querySelectorAll("li");
-   for (let item of siblings) {
-       item.classList.add("text-gray-600");
-       item.classList.remove("text-white");
-       item.classList.remove("bg-indigo-700");
-       item.innerHTML = "Inactive";
-   }
-   element.classList.remove("text-gray-600");
-   element.classList.add("bg-indigo-700");
-   element.classList.add("text-white");
-   element.innerHTML = "Active";
- }
+
 
 export default function index() {
   

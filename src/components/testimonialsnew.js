@@ -1,5 +1,5 @@
 import React from "react";
-import { Swiper, SwiperSlide, useSwiper  } from 'swiper/react';
+import { Swiper, SwiperSlide  } from 'swiper/react';
 import SwiperCore, {Autoplay, Navigation} from 'swiper'
 
 // Import Swiper styles

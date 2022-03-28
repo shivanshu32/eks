@@ -1,7 +1,7 @@
 
 import Whychooseus from '../components/whychooseus.js'
 
-import Contactus from '../components/contactus.js'
+// import Contactus from '../components/contactus.js'
 import Navigation from '../components/navigation.js'
 import Footer from '../components/footer.js'
 import Testimonailsnew from '../components/testimonialsnew.js'
