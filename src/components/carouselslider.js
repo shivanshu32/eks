@@ -80,7 +80,7 @@ export default function Carouselslider() {
              
           </div>
         </div>
-        <div class="w-full md:w-1/2 md:pt-12 lg:pt-12">
+        <div class="w-full">
           <img src="logo-explained.png" alt="headphone" />
         </div>
       </div>

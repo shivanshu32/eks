@@ -40,13 +40,13 @@ function fadeIn(el, display) {
     
     return (
        <div>
-            <section class="text-gray-600 body-font transition duration-150 ease-in-out z-500 absolute top-0 right-0 bottom-0 left-0" id="model">
+            <section class="text-white body-font transition duration-150 ease-in-out z-500 absolute top-0 right-0 bottom-0 left-0" id="model">
         <div class="container mx-auto">
           
 		  
 		  
 	   <div class="bg-gray-100">
-    <div class="max-w-7xl mx-auto ">
+    <div class="w-full mx-auto ">
       <div class="relative bg-white shadow-xl">
       
 

@@ -101,18 +101,18 @@ export default function index() {
                 <div className="w-12 relative z-20"><img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_svg-2.svg" alt="hand" />
                 </div>
                 <div className="-mt-6  flex border h-96 rounded text-left border-gray-600 bg-gray-800 justify-between items-start flex-col px-4 md:px-6">
-                  <p className="mt-10 text-base leading-normal text-gray-300">Class has a dynamic set of teaching tools built to be deployed and used during class. Teachers can handout assignments in real-time for students to complete and submit.</p>
+                  <p className="mt-10 text-base leading-normal text-gray-300">I have worked with Effectual Services on several IP projects. I have been impressed by their quality of work, as well as by their responsiveness. Their client orientation, dedication towards work, subject matter knowledge, and prompt communication is something that keeps me assured that I am working with an A-Team.</p>
                   <div className="flex justify-end pb-6 space-y-11 items-end w-full flex-col h-28">
                     <div className="flex grow-0 w-6 ">
                       <img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_svg-5_quotes.svg" alt="quotes" />
                     </div>
                     <div className="w-full flex jusitfy-start items-center space-x-2">
-                      <div>
+                      {/* <div>
                         <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_Ellipse%20109.png" alt="girl avatar" />
-                      </div>
+                      </div> */}
                       <div className="flex justify-start items-start flex-col space-y-2">
-                        <p className="text-lg font-medium leading-none text-gray-200">Rayna Torff</p>
-                        <p className="text-sm leading-none text-gray-200">Lead, Design Systems</p>
+                        <p className="text-lg font-medium leading-none text-gray-200">John Harper</p>
+                        <p className="text-sm leading-none text-gray-200">CEO, USA Firm</p>
                       </div>
                     </div>
                   </div>
@@ -124,18 +124,18 @@ export default function index() {
                 <div className="w-12 relative z-20"><img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_svg-3.svg" alt="be" />
                 </div>
                 <div className="-mt-6  flex border h-96 rounded text-left border-gray-600 bg-gray-800 justify-between items-start flex-col px-4 md:px-6">
-                  <p className="mt-10 text-base leading-normal text-gray-300">This website is the best I have found so far. Firstly it has huge range of components which are perfectly designed. All of the components are responsive in both tablet and mobile version. Love it!!! </p>
+                  <p className="mt-10 text-base leading-normal text-gray-300">I have attended many sales training programs, and I enjoyed this one the most. Both instructors were very knowledgeable and engaging. I found that the models really work and are of value to me. I will be able to use this in the field to increase my ability to engage my customers and grow my business. </p>
                   <div className="flex justify-end pb-6 space-y-11 items-end w-full flex-col h-28">
                     <div className="flex grow-0 w-6 ">
                       <img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_svg-5_quotes.svg" alt="quotes" />
                     </div>
                     <div className="w-full flex jusitfy-start items-center space-x-2">
-                      <div>
+                      {/* <div>
                         <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials_7_Ellipse%20111.png" alt="boy avatar" />
-                      </div>
+                      </div> */}
                       <div className="flex justify-start items-start flex-col space-y-2">
-                        <p className="text-lg font-medium leading-none text-gray-200">Marcus Dorwart</p>
-                        <p className="text-sm leading-none text-gray-200">VP, Operations</p>
+                        <p className="text-lg font-medium leading-none text-gray-200">Patent Attorney</p>
+                        <p className="text-sm leading-none text-gray-200">Law Firm, Australia</p>
                       </div>
                     </div>
                   </div>

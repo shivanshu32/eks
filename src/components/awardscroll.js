@@ -7,21 +7,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 SwiperCore.use([Navigation])
 
-
-
-
 export default function index() {
   
- 
-
   return (
     <div className="bg-gray-900  py-4 overflow-hidden">
       <div className="flex justify-center items-center flex-col py-6">
         <h1 className="text-2xl py-4 md:text-4xl 2xl:text-5xl leading-10 text-gray-200"><span className="font-bold" style={{color:"#0056A1"}}>Awards &</span> <span style={{color:"#c4171b"}} className="italic">Recognition</span></h1>
         
-        
-                    
-                
         
         <Swiper 
         centeredSlides={true} autoplay={{
@@ -65,34 +57,34 @@ export default function index() {
         
         className="swiper mySwiper">
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a2-1.jpg" alt="client1" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="awards/best-places.jpg" alt="client1" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a3-1.jpg" alt="client2" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="awards/certificate-registration.jpg" alt="client2" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/08/award1.jpg" alt="client3" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="awards/deloitte.jpg" alt="client3" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a6.png" alt="client4" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="awards/iam300.jpg" alt="client4" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a7.jpg" alt="client4" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="awards/ifcci.jpg" alt="client4" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a8-1.png" alt="client4" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="awards/indo-american.jpg" alt="client4" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/08/Indo-German-Chember-Of-Commerce.jpg" alt="client4" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="awards/indo-german.jpg" alt="client4" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/08/eu-india-1.png" alt="client4" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="awards/eu-india.jpg" alt="client4" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/08/sign-00000002.jpg" alt="client4" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="awards/red-herring-new.jpg" alt="client4" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/08/089909-573x553.jpg" alt="client4" /></div>
+            <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="awards/social-talks-new.jpg" alt="client4" /></div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
             <div class="px-10 py-6 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl"><img src="https://www.effectualservices.com/wp-content/uploads/2020/03/a4-1.jpg" alt="client4" /></div>

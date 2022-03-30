@@ -91,53 +91,62 @@ class footer extends Component {
                       '<span class="sr-only">Twitter</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" aria-hidden="true">' +
                         '<path d="M7.548 22.501c9.056 0 14.01-7.503 14.01-14.01 0-.213 0-.425-.015-.636A10.02 10.02 0 0024 5.305a9.828 9.828 0 01-2.828.776 4.94 4.94 0 002.165-2.724 9.867 9.867 0 01-3.127 1.195 4.929 4.929 0 00-8.391 4.491A13.98 13.98 0 011.67 3.9a4.928 4.928 0 001.525 6.573A4.887 4.887 0 01.96 9.855v.063a4.926 4.926 0 003.95 4.827 4.917 4.917 0 01-2.223.084 4.93 4.93 0 004.6 3.42A9.88 9.88 0 010 20.289a13.941 13.941 0 007.548 2.209" fill="currentColor"></path>' +
                       '</svg></button> </li>  </ul> </div>' +              
-              '<div class=" px-6 py-6 sm:px-10 lg:col-span-2 formbackground" style="background-color:#0056A1"}}>' +               
-                '<form action="#" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">' +
-                  '<div>  <label for="first_name" class="block text-sm font-medium text-white">First name</label><div class="mt-1"><input type="text" name="first_name" id="first_name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" />' +
+              '<div class=" px-6 py-8 sm:px-10 lg:col-span-2 formbackground" style="background-color:#0056A1"}}>' +    
+              '<p class="text-white text-base">Thank you for your interest in Effectual Services. Please fill out the form below and we will contact you shortly. For careers/recruitments related queries, please visit our Careers page.</p>' +           
+              '<p class="text-white mt-8 text-xs">Required fields are marked with an asterisk</p>' +  
+              '<form action="#" method="POST" class=" grid mt-4 grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">' +
+                  '<div>  <label for="first_name" class="block text-sm font-medium text-white">Name *</label><div class="mt-1"><input type="text" name="first_name" id="first_name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" />' +
                   '</div>' +
                   '</div>' +
                   '<div>' +
-                    '<label for="last_name" class="block text-sm font-medium text-white">Last name</label>' +
+                    '<label for="last_name" class="block text-sm font-medium text-white">Email *</label>' +
                     '<div class="mt-1">' +
                       '<input type="text" name="last_name" id="last_name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" />' +
                     '</div>' +
                   '</div>' +
                   '<div>' +
-                    '<label for="email" class="block text-sm font-medium text-white">Email</label>' +
+                    '<label for="email" class="block text-sm font-medium text-white">Service for Enquiry *</label>' +
                     '<div class="mt-1">' +
-                      '<input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" />' +
+                      '<select class="form-select appearance-none block w-full px-3 py-1.5 text-base  font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example"> ' +
+                        '<option selected>Click here to select Service' +
+                        '<svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">' +
+                        '<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />' +
+                      '</svg>' +
+                        '</option><option value="1">Patents</option>' +
+                        '<option value="2">Trademarks</option><option value="3">Market Research</option> <option value="4">Research & Development</option> </select>' +
                     '</div>' +
                  '</div>' +
                   '<div>' +
                     '<div class="flex justify-between">' +
-                      '<label for="phone" class="block text-sm font-medium text-white">Phone</label>' +
-                      '<span id="phone-optional" class="text-sm text-gray-500">Optional</span>' +
+                      '<label for="phone" class="block text-sm font-medium text-white">Phone *</label>' +
+                     
                     '</div>' +
                     '<div class="mt-1">' +
                       '<input type="text" name="phone" id="phone" autocomplete="tel" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" aria-describedby="phone-optional" />' +
                     '</div>' +
                   '</div>' +
-                  '<div class="sm:col-span-2">' +
-                    '<label for="subject" class="block text-sm font-medium text-white">Service for Enquiry</label>' +
-                    '<div class="mt-1">' +
-                      '<input type="text" name="subject" id="subject" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" />' +
-                    '</div>' +
-                  '</div>' +
+                  
                   '<div class="sm:col-span-2">' +
                     '<div class="flex justify-between">' +
                       '<label for="message" class="block text-sm font-medium text-white">Message</label>' +
-                      '<span id="message-max" class="text-sm text-gray-500">Max. 500 characters</span>' +
+                      '<span id="message-max" class="text-sm text-white">Max. 500 characters</span>' +
                     '</div>' +
                     '<div class="mt-1">' +
                       '<textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md" aria-describedby="message-max"></textarea>' +
                     '</div>' +
+                    '<p class="text-sm pt-4 text-white">By clicking the submit button, you give Effectual Services consent to store and process the personal information submitted above. Effectual is committed to protecting and respecting your privacy, we\'ll only use your information to provide the products and services you requested from us.</p>' +
+                  
                   '</div>' +
+                 
                   '<div class="sm:col-span-2 sm:flex sm:justify-end">' +
+                  
                     '<button type="submit" class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:w-auto">' +
                       'Submit' +
                     '</button>'+
+                   
                   '</div>' +
                 '</form>' + 
+                
               '</div>' +
             '</div>' +
           '</div>' +
@@ -284,7 +293,7 @@ class footer extends Component {
                   </h3>
 
                   <div class="flex py-4 w-full space-x-10 md:order-2">                  
-                    <a href="/" class="text-gray-400 hover:text-gray-300">
+                    <a href="https://www.facebook.com/EffectualServices/" class="text-gray-400 hover:text-gray-300">
                       <span class="sr-only">Facebook</span>
                       <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
@@ -329,6 +338,14 @@ class footer extends Component {
                 </p>
               </div>
             </div>
+            <style>
+   {
+     `.swal2-html-container{
+       margin:0px!important;
+       text-align:left!important;
+     }`
+   }
+ </style>
           </footer>
         );
     }

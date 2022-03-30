@@ -17,28 +17,30 @@ thus living to the core of our philosophy - Innovation is global, so are we !!!<
                         <img src="us-map.jpg" alt="phone number"/>                       
                     </div> 
                     <p class="text-xl font-semibold leading-5 text-center text-gray-800 dark:text-white">United States</p>
-                    <p class="text-base mt-4 leading-4 text-center text-gray-600 dark:text-gray-200">San Francisco & New York</p>
+                    <p class="text-base mt-4 mb-4 leading-4 text-center text-gray-600 dark:text-gray-200">Suite-427,425 Broadhollow Road,<br /> Melville | NY-11747</p>
                 </div>
                 <div class="bg-white dark:bg-gray-800 border rounded-md border-gray-200 dark:border-gray-700 h-64 flex flex-col items-center ">
                     <div class="w-48 h-48  flex items-center justify-center " role="img" aria-label="email">
                         <img src="europe-map.jpg" alt="email"/>                      
                     </div>
                     <p class="text-xl font-semibold leading-5 text-center text-gray-800 dark:text-white">Europe</p>
-                    <p class="text-base mt-4 leading-4 text-center text-gray-600 dark:text-gray-200">London & Stuttgart</p>
+                    <p class="text-base mt-4 mb-4 leading-4 text-center text-gray-600 dark:text-gray-200">London & Stuttgart</p>
                 </div>
                 <div class="bg-white dark:bg-gray-800 border rounded-md border-gray-200 dark:border-gray-700 h-64 flex flex-col items-center ">
                     <div class="w-48 h-48 flex items-center justify-center" role="img" aria-label="location">
-                        <img src="india-map.jpg" alt="location"/>                     
+                        <img src="india-map.jpg" class="h-36" alt="location"/>                     
                     </div>
                     <p class="text-xl font-semibold leading-5 text-center text-gray-800 dark:text-white">India</p>
-                    <p class="text-base mt-4 leading-6 text-center text-gray-600 dark:text-gray-200 w-48">Noida & Mohali</p>
+                    <p class="text-base mt-4 mb-4 leading-6 text-center text-gray-600 dark:text-gray-200 w-48">SDF A-05, NSEZ, Noida–Dadri Road, Noida</p>
                 </div>
                 <div class="bg-white dark:bg-gray-800 border rounded-md border-gray-200 dark:border-gray-700 h-64 flex flex-col items-center ">
                     <div class="w-48 h-48  flex items-center justify-center" role="img" aria-label="location">
                         <img src="singapore-map.jpg" alt="location"/>                     
                     </div>
                     <p class="text-xl font-semibold leading-5 text-center text-gray-800 dark:text-white">Singapore</p>
-                    <p class="text-base mt-4 leading-6 text-center text-gray-600 dark:text-gray-200 w-48">Singapore </p>
+                    <p class="text-base mt-4 mb-4 leading-6 text-center text-gray-600 dark:text-gray-200 w-48">531A, Upper Cross Street,<br /> Singapore- 051531
+
+</p>
                 </div>
                 
             </div>

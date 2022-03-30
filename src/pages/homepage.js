@@ -56,7 +56,7 @@ function HomePage() {
                 <div class="flex items-center">
                             <div class="w-16 h-16 relative">
                                 <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg1.svg" alt="clock" />
+                                <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg2.svg" alt="Friendly" />
                                 </div>
                             </div>
                             <div class="flex items-start flex-col ml-6 pt-8">
@@ -67,7 +67,7 @@ function HomePage() {
                         <div class="flex items-center">
                             <div class="w-16 h-16 relative">
                                 <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg2.svg" alt="Friendly" />
+                                   <img src="pointers/globe.png" alt="Friendly" />
                                 </div>
                             </div>
                             <div class="flex items-start flex-col ml-6 pt-8">
@@ -78,7 +78,7 @@ function HomePage() {
                         <div class="flex items-center">
                             <div class="w-16 h-16 relative">
                                 <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg3.svg" alt="Creative" />
+                                   <img src="pointers/projects.png" alt="Creative" />
                                 </div>
                             </div>
                             <div class="flex items-start flex-col ml-6 pt-8">
@@ -100,7 +100,7 @@ function HomePage() {
                         <div class="flex items-center">
                             <div class="w-16 h-16 relative">
                                 <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg1.svg" alt="clock" />
+                                   <img src="pointers/building.png" alt="clock" />
                                 </div>
                             </div>
                             <div class="flex items-start flex-col ml-6 pt-8">
@@ -111,7 +111,7 @@ function HomePage() {
                         <div class="flex items-center">
                             <div class="w-16 h-16 relative">
                                 <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg2.svg" alt="Friendly" />
+                                   <img src="pointers/research.png" alt="Friendly" />
                                 </div>
                             </div>
                             <div class="flex items-start flex-col ml-6 pt-8">
@@ -133,7 +133,7 @@ function HomePage() {
                         <div class="flex items-center">
                             <div class="w-16 h-16 relative">
                                 <div class=" flex-shrink-0 z-20  w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/feature_6_Svg4.svg" alt="Achievments" />
+                                   <img src="pointers/industry.png" alt="Achievments" />
                                 </div>
                             </div>
                             <div class="flex items-start flex-col ml-6 pt-8">

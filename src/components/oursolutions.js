@@ -129,7 +129,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/patent-creation" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -228,7 +228,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/patent-searches" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -295,7 +295,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/patent-litigation" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -428,7 +428,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/patent-licensing" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -521,7 +521,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/trademark-search" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -628,7 +628,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/indian-patent-services" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -758,7 +758,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/patent-management" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -884,7 +884,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/trademark-management" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -939,7 +939,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/trademark-registration" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -1050,7 +1050,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/innovation-scouting" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -1163,7 +1163,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/patent-technology-landscape" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -1218,7 +1218,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/competitive-intelligence-ip-watch" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -1327,7 +1327,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/partner-identification" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -1407,7 +1407,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/opportunity-assessment" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
@@ -1505,7 +1505,7 @@ function Index() {
 </div>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                         
-                                    <button class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</button> 
+                                    <a href="/portfolio-whitespace-analysis" class="focus:outline-none underline text-indigo-800 text-xs font-bold text-black cursor-pointer">Learn More</a> 
                                     
                                     </div>
                                 </div>
