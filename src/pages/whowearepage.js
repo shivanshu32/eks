@@ -89,9 +89,9 @@ class whowearepage extends Component {
 {/* <div class="w-full object-contain py-16 h-96" style={{backgroundImage: "url(images/story.png)"}}>
   
 </div> */}
-
-<img class="w-full" src="images/story.png" alt="story" />
-
+<div className="flex w-full justify-center py-4">
+<img class="w-3/4" src="images/story.png" alt="story" />
+</div>
 
 
 <div class="relative bg-gray-900">
