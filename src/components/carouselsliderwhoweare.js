@@ -71,7 +71,7 @@ export default function Carouselsliderwhoweare() {
       <div class="flex flex-col md:flex md:flex-row justify-center items-center">
         <div class="w-full md:w-1/2 order-1 md:order-none">
           <div class="md:w-96">
-          <h1 class="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto"><span style={{color: "rgb(0, 86, 161)"}}>Innovation in Global, <br /></span> <span style={{color: "rgb(196, 23, 27)"}}>So are we !!!</span></h1>
+          <h1 class="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto"><span style={{color: "rgb(0, 86, 161)"}}>Innovation is Global, <br /></span> <span style={{color: "rgb(196, 23, 27)"}}>So are we !!!</span></h1>
             {/* <h1 class="font-light text-2xl md:text-4xl lg:text-5xl md:leading-9 text-gray-800 dark:text-white mt-2 md:mt-4 lg:mt-6">That Matters</h1> */}
             {/* <p class="text-sm md:text-base text-gray-800 dark:text-white md:leading-6 mt-4 md:mt-6 md:w-4/5 lg:w-auto">
             With a clientele spread across 50+ countries, we guide corporations and universities on how to manage and monetize their patent portfolios
