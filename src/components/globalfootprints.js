@@ -6,7 +6,7 @@ export default function index(){
             <div>
                 
         <div class="flex py-12 flex-col items-center">
-        <h1 class="text-2xl md:text-4xl 2xl:text-5xl leading-10 text-gray-200"><span class="font-bold" style={{color: "rgb(0, 86, 161)"}}>Global</span> <span class="italic" style={{color: "rgb(196, 23, 27)"}}>Footprints</span></h1>
+        <h1 class="text-2xl md:text-4xl 2xl:text-5xl leading-10 text-gray-200"><span class="font-bold" style={{color: "rgb(0, 86, 161)"}}>Global</span> <span class="italic" style={{color: "rgb(196, 23, 27)"}}>Footprint</span></h1>
             <p class="text-base leading-normal text-center text-gray-600 dark:text-gray-200 mt-5 text-center md:w-3/5">Having a global
 footprint in over 5 countries helps us to bridge boundaries and work seamlessly across multiple time zones,
 thus living to the core of our philosophy - Innovation is global, so are we !!!</p>

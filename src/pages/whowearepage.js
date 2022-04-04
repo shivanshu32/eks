@@ -1,18 +1,28 @@
 import React, { Component } from 'react';
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
+import Whowearepy from '../components/whowearepy'
+import Awardscroll from '../components/awardscroll'
+import Carouselsliderwhoweare from '../components/carouselsliderwhoweare'
+import Globalfootprints from '../components/globalfootprints'
+import Missionvison from '../components/missionvison'
+import Corevalues from '../components/corevalues'
+import Whoweareroad from '../components/whoweareroad';
 
 class whowearepage extends Component {
     render() {
         return (
             <div>
                 <Navigation />
+                <Carouselsliderwhoweare />
+                <Whowearepy />
+                <Missionvison />
 
                 <header class="bg-white dark:bg-gray-800">
        
 
         <div class="container px-16 py-6 mx-auto">
-            <div class="items-center lg:flex">
+            {/* <div class="items-center lg:flex">
                 <div class="w-full lg:w-1/2">
                     <div class="lg:max-w-lg">
                         
@@ -28,10 +38,16 @@ class whowearepage extends Component {
                 <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
                     <img class="w-full h-full lg:max-w-2xl" src="images/explained.png" alt="Catalogue-pana.svg" />
                 </div>
-            </div>
+            </div> */}
         </div>
     </header>
 
+    <Awardscroll />
+
+    <Corevalues />
+    <Whoweareroad />
+
+   
 
     <div class="relative bg-gray-900">
   <div class="absolute inset-x-0 bottom-0">
@@ -67,12 +83,15 @@ class whowearepage extends Component {
 </div>
 
 
-<h2 class="mb-6 py-16 font-sans text-3xl font-bold tracking-tight text-center text-black sm:text-4xl sm:leading-none">
+{/* <h2 class="mb-6 py-16 font-sans text-3xl font-bold tracking-tight text-center text-black sm:text-4xl sm:leading-none">
   Our Story        
-  </h2> 
-<div class="w-full object-none py-16 bg-center bg-cover h-96" style={{backgroundImage: "url(images/story.png)"}}>
+  </h2>  */}
+{/* <div class="w-full object-contain py-16 h-96" style={{backgroundImage: "url(images/story.png)"}}>
   
-</div>
+</div> */}
+
+<img class="w-full" src="images/story.png" alt="story" />
+
 
 
 <div class="relative bg-gray-900">
@@ -104,7 +123,7 @@ class whowearepage extends Component {
       </div>
 
 
-      <div class="relative w-full flex">
+      {/* <div class="relative w-full flex">
   <div class="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
         <div class="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0"><div class="flex mx-auto w-full sm:w-auto"><div class="flex items-center justify-center bg-orange-100 py-4 w-12 h-12 mr-6 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
           <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -121,9 +140,9 @@ class whowearepage extends Component {
         
   </div>
       <div class="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-64 sm:h-48 top-0 mt-8 mx-auto left-0 right-0" ></div>
-</div>
+</div> */}
 
-
+<Globalfootprints />
                 <Footer />
             </div>
         );
