@@ -13,7 +13,7 @@ function learnram(){
                   '<div class="lg:w-3/4">' +
                       '<p class="mt-8 text-gray-500 dark:text-gray-400 text-justify">With 16+ years of experience leading international and multicultural teams of 10-200 people, He Managed 1200+ projects ranging from $100K-$8.5M in budget. 8000+ hours of presenting and training on a wide variety of subjects including innovation, teamwork and project management.' +
                       '</p><p class="mt-4 text-gray-500 dark:text-gray-400 text-justify">' +
-                        'Nishant holds a bachelors degree in computer science engineering from Delhi University. He has worked in offices of leading law firms in the US and UK and has also undergone extensive training in patent law from US and European patent attorneys. He was also working in a strategy consulting role in the UK for two years managing large accounts across European region.' +
+                        'He has a consistent track record of problem solving, opportunity identification, team leadership, and growth. His success lies at the intersection of business development, sales, marketing, operations and technology - the DNA of start-ups.' +
                       '</p>' + 
                   '</div>' +        
                   '<div class="mt-8 lg:mt-0 lg:w-1/4">' +
