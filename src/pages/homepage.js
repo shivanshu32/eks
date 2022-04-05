@@ -19,13 +19,6 @@ function HomePage() {
     <div className="App">   
      <Navigation />
      <Carouselslider />
-
-    
-
-
-
-
-
      {/* <div class="w-full bg-center bg-cover h-96" style={{backgroundImage: "url(images/banner.jpg)"}}>
             <div class="flex flex-direction:row-reverse; items-center justify-end w-full h-full bg-gray-900 bg-opacity-10">
                 <div class="px-16 items-center">
