@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
-import Contactstrip from '../components/contactstrip.js'
+
 
 class articlespage extends Component {
     render() {
