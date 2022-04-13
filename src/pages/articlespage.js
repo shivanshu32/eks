@@ -145,7 +145,7 @@ class articlespage extends Component {
 </div>
 
 
-<Contactstrip />
+
                 <Footer />
             </div>
         );

@@ -3,6 +3,7 @@ import Navigation from '../components/navigation'
 import Footer from '../components/footer'
 import Carouselteam from '../components/carouselteam';
 import Swal from 'sweetalert2'
+import Awardscroll from '../components/awardscroll';
 
 function learnram(){
     Swal.fire({          
@@ -11,10 +12,10 @@ function learnram(){
           '<div class="container px-16 pt-8 mx-auto">' +
               '<div class="items-start lg:flex">' +        
                   '<div class="lg:w-3/4">' +
-                      '<p class="mt-8 text-gray-500 dark:text-gray-400 text-justify">With 16+ years of experience leading international and multicultural teams of 10-200 people, He Managed 1200+ projects ranging from $100K-$8.5M in budget. 8000+ hours of presenting and training on a wide variety of subjects including innovation, teamwork and project management.' +
+                      '<p class="mt-8 text-gray-500 dark:text-gray-400 text-justify">Ram has 16+ years of experience leading international and multicultural teams of 10-200 people, he has managed 1200+ projects ranging from $500K-$18.5M in budget with 8000+ hours in presenting and training, on a wide variety of subjects including innovation, teamwork and project management. He leads the firm’s strategic initiatives while working to create strategies based on data-driven analysis. ' +
                       '</p><p class="mt-4 text-gray-500 dark:text-gray-400 text-justify">' +
-                        'He has a consistent track record of problem solving, opportunity identification, team leadership, and growth. His success lies at the intersection of business development, sales, marketing, operations and technology - the DNA of start-ups.' +
-                      '</p>' + 
+                        'Researching changing market dynamics and consulting companies with analysis and forecast of market opportunities is his forte. He has served over 1700 global fortune enterprises with more than 1400+ premium studies, catering to multitude of clients across 25+ different industrial verticals. He specializes in consulting assignments and business research across high growth markets, cutting edge technologies and newer applications. He believes that business opportunities which drive success are built on a foundation of authentic relationships with and providing value-based service. He strongly believes that offering value to clients comes from listening to understand how to best support them in achieving their business goals, while loving to conduct international business in different cultures.' +
+                      '</p><p class="mt-4 text-gray-500 dark:text-gray-400 text-justify">Industry Expertise: Healthcare, Semiconductor, Chemical & Materials, Information Communication and Technology, Power and Energy, Automotive, Food and Beverage, Aerospace and Defence</p>' + 
                   '</div>' +        
                   '<div class="mt-8 lg:mt-0 lg:w-1/4">' +
                   '<div class="flex items-center ml-8"><div class="rounded "><div class="mx-auto w-full container"><div class="grid sm:grid-cols-1 w-full md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-6 pb-12"><div class="w-full flex items-center justify-center flex-col"><div class="w-full px-5 -mb-10  relative z-40"><img src="images/clients/ram-tenneti.png" alt="girl smilling" class="w-full h-full rounded-md"></div><div class="pb-8 pt-14 bg-indigo-700 rounded-md w-full "><p class="text-xl font-semibold leading-5 text-center text-white">Ram Tenneti</p><p class="text-base leading-4 mt-2 text-center text-white">Vice President - Global</p></div></div></div></div></div></div>' +           
@@ -220,7 +221,7 @@ class foundersleadershippage extends Component {
                     
                     <div className="w-full flex items-center justify-center flex-col">
                         <div className="w-full px-5 -mb-10  relative z-40">
-                            <img src="images/clients/rsz_amit_goel.jpg" alt="girl smilling" className="w-full h-full rounded-md" />
+                            <img src="images/clients/amit-goel.jpg" alt="girl smilling" className="w-full h-full rounded-md" />
                         </div>
                         <div className="pb-8 pt-14 bg-indigo-700 rounded-md w-full ">
                             <p className="text-xl font-semibold leading-5 text-center text-white">Dr. Amit Goel</p>
@@ -340,6 +341,7 @@ class foundersleadershippage extends Component {
   </div>
 </section>
 
+<Awardscroll />
 
                 <Footer />
             </div>

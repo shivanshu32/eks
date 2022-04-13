@@ -7,7 +7,7 @@ class lifesciencespage extends Component {
         return (
             <div>
                 <Navigation />
-                <div class="relative bg-white overflow-hidden bg-black">
+                <div class="relative bg-white overflow-hidden">
         <div class=" mx-auto ">
           <div class="relative z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full ">
             

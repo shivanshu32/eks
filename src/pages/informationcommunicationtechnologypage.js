@@ -7,7 +7,7 @@ class informationcommunicationtechnologypage extends Component {
         return (
             <div>
                 <Navigation />
-                <div class="relative bg-white overflow-hidden bg-black">
+                <div class="relative bg-white overflow-hidden">
         <div class=" mx-auto ">
           <div class="relative z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full ">
             
@@ -573,8 +573,8 @@ class informationcommunicationtechnologypage extends Component {
 <h2 class="mb-6 py-16 font-sans text-3xl font-bold tracking-tight text-center text-black sm:text-4xl sm:leading-none">
   TEAM ACADEMICS     
   </h2> 
-<div class="w-full h-96 bg-center" style={{backgroundImage: "url(images/Industry-ict-2.png)"}}>
-  
+<div class="w-full bg-center flex items-center" >
+  <img class="align-center w-full px-72 items-center" src="images/Industry-ict-2.png" alt="industry" />
 </div>
 
 <h2 class="mt-16 font-sans text-3xl font-bold tracking-tight text-center text-black sm:text-4xl sm:leading-none">

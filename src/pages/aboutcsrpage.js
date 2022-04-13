@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from '../components/navigation'
 import Footer from '../components/footer'
+import Globalfootprints from '../components/globalfootprints.js'
 
 class aboutcsrpage extends Component {
     render() {
@@ -10,9 +11,9 @@ class aboutcsrpage extends Component {
 
 
                 <div class="w-full bg-center bg-cover h-96" style={{backgroundImage: "url(images/about-banner.jpg)"}}>
-      <div class="flex items-center justify-left w-full h-full bg-gray-900 bg-opacity-50">
+      <div class="flex items-center justify-left w-full h-full bg-gray-900 bg-opacity-10">
           <div class="px-16">
-              <h1 class="text-2xl font-semibold text-white lg:text-4xl">To create a stronger business we <br />need a progressive society and a <br />sustainable development</h1>
+              <h1 class="text-xl py-4 font-semibold text-white lg:text-4xl">To create a stronger business we <br />need a progressive society and a <br />sustainable development</h1>
               
           </div>
       </div>
@@ -34,11 +35,11 @@ class aboutcsrpage extends Component {
                 CSR initiatives at Effectual can be summarized in two words: Measurable Change. Our initiatives are focused on three key aspects of the society – Economic, Social, and Environmental.
 </p><p class="mt-4 text-gray-500 dark:text-gray-400 ">
                 From making our workplace more environmentally friendly to enabling clients discover solutions to some of the biggest ecological problems mankind is facing, we believe in doing our bit for our immediate environment and the world.
-              </p><p class="mt-4 text-gray-500 dark:text-gray-400 ">              
+              </p><p class="mt-4 mb-4 text-gray-500 dark:text-gray-400 ">              
                 Our employees are also engaged directly in helping us achieve our CSR goals as a company.
               </p>
 
-              <button class="w-full px-4 py-2 mt-4 text-sm font-medium text-white uppercase transition-colors duration-200 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 uppercase focus:outline-none focus:bg-blue-500">Work with us</button>
+              <a href="/career" alt="careers" class="w-full px-4 py-2 mt-4 text-sm font-medium text-white uppercase transition-colors duration-200 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 uppercase focus:outline-none focus:bg-blue-500">Work with us</a>
           </div>
 
           
@@ -215,6 +216,7 @@ class aboutcsrpage extends Component {
   </div>
 </section>
 
+<Globalfootprints />
 
 
                 <Footer />
